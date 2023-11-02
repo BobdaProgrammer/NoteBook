@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="styles.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your NotePad</title>
+</head>
+<body>
+<nav class="navbar">
+    <button class="bullet icon" id="bullet" onclick="bullet();"><img src="bulletPoint.png" class="bulletpoint"></button>
+<div class="slider">
+    <button class="lightMode icon" id="lightMode" onclick="changeMode('light');"><img src="light.png" class="light"></button>
+    <button class="darkMode icon" id="darkMode" onclick="changeMode('dark')"><img src="dark.png" class="dark"></button>
+</div>
+</nav>
+<textarea class="page" id="page"></textarea>
+<script src="index.js"></script>
+</body>
+</html>
